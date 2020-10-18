@@ -1,6 +1,8 @@
 # recruitment-scripts
 Scripts that automate excel processes of a recruitment department.
 
+I chose to add these scripts to github as they are more of a personal project and not part of my day-to-day work as a recruiter.
+
 ## [English Evaluation Tracker](English-evaluation-tracker/programati_eng.ts)
 ### [programati_eng.ts](English-evaluation-tracker/programati_eng.ts)
 Counts how many candidates are scheduled for the oral English evaluation.
