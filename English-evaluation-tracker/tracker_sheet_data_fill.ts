@@ -7,7 +7,7 @@
  * 
  * The data is a combination of excel functions that reference data from "ORAL SCHEDULE" sheet.
  * The referenced data is formatted as "date#language#interval". 
- * The end data will be processed by the "programati_eng.ts" script.
+ * The end data will be processed by the "tracker_eng.ts" script.
  */
 function main(workbook: ExcelScript.Workbook) {
     // How many negatively modified datasets to write.
