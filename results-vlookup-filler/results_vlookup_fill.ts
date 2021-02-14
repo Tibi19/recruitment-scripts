@@ -7,19 +7,19 @@
 function main(workbook: ExcelScript.Workbook) {
     // Column where to write data.
     let columnOral = workbook
-      .getWorksheet("Sheet1")
+      .getWorksheet(ExcelWritingValues.WRITING_SHEET)
       .getUsedRange()
       .getColumn(ExcelWritingValues.START_COL + 0);
     let columnRead = workbook
-      .getWorksheet("Sheet1")
+      .getWorksheet(ExcelWritingValues.WRITING_SHEET)
       .getUsedRange()
       .getColumn(ExcelWritingValues.START_COL + 1);
     let columnGram = workbook
-      .getWorksheet("Sheet1")
+      .getWorksheet(ExcelWritingValues.WRITING_SHEET)
       .getUsedRange()
       .getColumn(ExcelWritingValues.START_COL + 2);
     let columnWrit = workbook
-      .getWorksheet("Sheet1")
+      .getWorksheet(ExcelWritingValues.WRITING_SHEET)
       .getUsedRange()
       .getColumn(ExcelWritingValues.START_COL + 3);
     // Number of row where to write.
@@ -82,5 +82,6 @@ function main(workbook: ExcelScript.Workbook) {
   enum ExcelWritingValues {
     START_ROW = 0,
     START_COL = 7,
-    DATASETS_TO_WRITE = 20
+    DATASETS_TO_WRITE = 20,
+    WRITING_SHEET = "Sheet1"
   }
