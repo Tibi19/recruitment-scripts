@@ -18,7 +18,7 @@ Availabilities are read from "Tracker Programari" sheet and updated by users of 
 
 Tracking data is wrote in a tabel in "Tracker Programari" sheet.
 Scheduling data is referenced in the "Tracker Programari" sheet from "ORAL SCHEDULE" sheet.
-Columns J, K, L contain back-end data of the script and are hidden from the user.
+Columns J, K, L contain 'back-end data' of the script and are hidden from the user.
 
 ### [tracker_sheet_data_fill.ts](English-evaluation-tracker/tracker_sheet_data_fill.ts)
 This script populates a number of cells in a single column with data.
